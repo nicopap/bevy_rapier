@@ -236,7 +236,7 @@ fn extract(mut commands: Commands, query: Extract<Query<Entity, With<DebugLinesM
 }
 
 #[derive(Component)]
-pub(crate) struct DebugLinesMesh(usize);
+pub struct DebugLinesMesh(usize);
 
 #[derive(Component)]
 pub(crate) struct RenderDebugLinesMesh;
